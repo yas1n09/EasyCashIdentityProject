@@ -9,9 +9,9 @@ namespace EasyCashIdentityProject.DtoLayer.Dtos.AppUserDtos
 {
     public class AppUserRegisterDto
     {
-        [Required(ErrorMessage ="Name Required!")]
-        [Display(Name="Name")]
-        [MaxLength(20,ErrorMessage ="Maximun 20 characters allowed")]
+        //[Required(ErrorMessage ="Name Required!")]
+        //[Display(Name="Name")]
+        //[MaxLength(20,ErrorMessage ="Maximun 20 characters allowed")]
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
